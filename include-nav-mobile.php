@@ -2,7 +2,7 @@
     <!--   <a class="navmenu-brand" href="#">Project name</a> -->
 
         <div class="logo text-center">
-                <a href="<?php bloginfo('url'); ?>"> parque arauco</a>
+                <a href="<?php bloginfo('url'); ?>"> arauco Quilicura</a>
         </div> <!-- brand -->
 
     <div class="rrss visible-xs visible-sm center-block text-center">
@@ -59,7 +59,7 @@
                                       </li>
 
                                       <li>
-                                        <a href="https://www.google.cl/maps/place/Mall+Arauco+Coronel/@-37.013895,-73.1603369,712m/data=!3m1!1e3!4m13!1m7!3m6!1s0x9669c11972020ecd:0xf2e87d4931e8916e!2sCarlos+Pratt+Gonz%C3%A1lez+901,+Coronel,+Regi%C3%B3n+del+B%C3%ADo+B%C3%ADo!3b1!8m2!3d-37.0145719!4d-73.1580195!3m4!1s0x0:0x9c764d06a239f15f!8m2!3d-37.0136476!4d-73.15997?hl=es" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i><?php echo $tit2; ?> </a>
+                                        <a href="https://www.google.cl/maps/place/Mall+Arauco+Quilicura/@-33.3673366,-70.7310678,17z/data=!3m1!4b1!4m5!3m4!1s0x9662c0b826dd4fb3:0x91adb5570148d070!8m2!3d-33.3673411!4d-70.7288791" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i><?php echo $tit2; ?> </a>
                                       </li>
                                     </ul>
                               </div>
@@ -105,7 +105,7 @@
 				<span class="icon-bar bottom_bar"></span>
 			</button>
 			<div class="logo">
-                <a href="<?php bloginfo('url'); ?>"> Arauco Coronel</a>
+                <a href="<?php bloginfo('url'); ?>"> Arauco Quiliciura</a>
            	</div> <!-- brand -->
 <!--
             <div id="lang_switcher" class="visible-xs visible-sm">

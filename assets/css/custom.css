@@ -2284,4 +2284,33 @@ input[type="color"]:focus,
           opacity: 0.7;
           top: 13px; }
 
+/*agregado por nico*/
 
+
+section.top .navbar-header .logo a {
+    display: inline-block;
+    background: url(../img/logo-arauco-quilicura.svg) no-repeat;
+}
+
+@media (max-width: 991px){
+   section.top #menu_mobile .logo a,
+   section.top #nav_mobile .navbar-header .logo a {
+    background: url(../img/logos_mall/arauco_quilicura.svg) no-repeat;
+  }
+}
+
+
+.modal_overlay .box_modal .header_modal .logo {
+    background: url(../img/logos_mall/arauco_quilicura.svg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 116px;
+    height: 87px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    top: 100px;
+}

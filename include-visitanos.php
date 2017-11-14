@@ -59,7 +59,8 @@ if(ICL_LANGUAGE_CODE=='en'){
           <ul>
 		  	<li>
             	<a class="hvr-float" href="http://www.parquearauco.cl/" target="_blank">
-<!--                 	<img src="<?php bloginfo('template_url'); ?>/assets/img/logos_mall/parque_arauco.svg" class=""> -->
+                <img src="<?php bloginfo('template_url'); ?>/assets/img/logos_mall/parque_arauco_xs.svg" class="logo_size"> 
+
                 	<img src="<?php bloginfo('template_url'); ?>/assets/img/logo_xs.svg" class="logo_size">
               	</a>
             </li>

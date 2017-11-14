@@ -40,12 +40,13 @@ if(ICL_LANGUAGE_CODE=='en'){
 	$btn2 = "Veja mais";
 }else{ 	
     $menu3 = "Patio de Comidas";
-    $menu4 = "Bazar Central";
-    $menu5 = "entretención";
+    $menu4 = "Novedades/Actividades";
+    $menu5 = "Entretención";
     $menu6 = "novedades";
     $menu7 = "tiendas";
 	$menu8 = "Galería";
     $menu10 = "servicio al cliente";
+    $menu11 ='destacado';
     
 	$tit1 = "horarios";
 	$tit2 = "cómo llegar";
@@ -97,7 +98,7 @@ if(ICL_LANGUAGE_CODE=='en'){
                    
                 <div class="rrss hidden-xs hidden-sm">
                    <ul>
-                     <li><a href="https://www.facebook.com/araucocoronel/" target="_blank"><i class="fa fa-facebook hvr-float" aria-hidden="true"></i></a></li>
+                     <li><a href="https://www.facebook.com/araucoQuilicura/" target="_blank"><i class="fa fa-facebook hvr-float" aria-hidden="true"></i></a></li>
 <!--
                      <li><a href="https://www.instagram.com/parquearauco/" target="_blank"><i class="fa fa-instagram hvr-float" aria-hidden="true"></i></a></li>
                      <li><a href="https://twitter.com/parquearauco" target="_blank"><i class="fa fa-twitter hvr-float" aria-hidden="true"></i></a></li>
@@ -124,8 +125,10 @@ if(ICL_LANGUAGE_CODE=='en'){
                                      <li><a id="btn_tiendas" 		href="<?php bloginfo('url'); ?>/tiendas#tiendas"><?php echo $menu7; ?></a></li>
                                      <li><a id="btn_boulevard" 		href="<?php bloginfo('url'); ?>/food-court-tiendas#tiendas"><?php echo $menu3; ?></a></li>
                                      <li><a id="btn_piso" 			href="<?php bloginfo('url'); ?>/bazar-central"><?php echo $menu4; ?></a></li>
-                                     <li><a id="btn_entretencion" 	href="<?php bloginfo('url'); ?>/novedades#entretencion"><?php echo $menu5; ?></a></li>
-                                     <li><a id="btn_novedades" 		href="<?php bloginfo('url'); ?>/novedades#novedades"><?php echo $menu6; ?></a></li>
+                                     <!-- <li><a id="btn_entretencion" 	href="<?php bloginfo('url'); ?>/novedades#entretencion"><?php echo $menu5; ?></a></li> -->
+                                     <li><a id="btn_novedades" 		href="<?php bloginfo('url'); ?>/novedades#novedades"><?php echo $menu5; ?></a></li>
+                                     <li><a id="btn_novedades"    href="<?php bloginfo('url'); ?>/novedades#destacado"><?php echo $menu11; ?></a></li>
+
                                 </ul>
                             </div>
 
@@ -136,7 +139,8 @@ if(ICL_LANGUAGE_CODE=='en'){
                                        <li class="hidden-xs hidden-sm"><a class="invisible" href="javascript:void(0);">&nbsp</a></li>
                                        <li class="hidden-xs hidden-sm"><a class="invisible" href="javascript:void(0);">&nbsp</a></li>
                                        <li class="hidden-xs hidden-sm"><a class="invisible" href="javascript:void(0);">&nbsp</a></li>
-                                       <li><a href="<?php bloginfo('url'); ?>/novedades-galeria/#galerias"><?php echo $menu8; ?></a></li>
+                                         <li><a href="<?php bloginfo('url'); ?>/novedades-galeria/#galerias"><?php echo $menu8; ?></a></li>
+                                    
                                        <li><a href="<?php bloginfo('url'); ?>/servicio-al-cliente"><?php echo $menu10; ?></a></li>
                                   </ul>
                             </div>
@@ -161,7 +165,7 @@ if(ICL_LANGUAGE_CODE=='en'){
                                       </li>
 
                                       <li>
-                                            <a href="https://www.google.cl/maps/place/Mall+Arauco+Coronel/@-37.013895,-73.1603369,712m/data=!3m1!1e3!4m13!1m7!3m6!1s0x9669c11972020ecd:0xf2e87d4931e8916e!2sCarlos+Pratt+Gonz%C3%A1lez+901,+Coronel,+Regi%C3%B3n+del+B%C3%ADo+B%C3%ADo!3b1!8m2!3d-37.0145719!4d-73.1580195!3m4!1s0x0:0x9c764d06a239f15f!8m2!3d-37.0136476!4d-73.15997?hl=es" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i><?php echo $tit2; ?> </a>
+                                            <a href="https://www.google.cl/maps/place/Mall+Arauco+Quilicura/@-33.3673366,-70.7310678,17z/data=!4m5!3m4!1s0x9662c0b826dd4fb3:0x91adb5570148d070!8m2!3d-33.3673411!4d-70.7288794" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i><?php echo $tit2; ?> </a>
                                       </li>
                                     </ul>
                               </div>

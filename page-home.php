@@ -109,8 +109,8 @@ if(ICL_LANGUAGE_CODE=='en'){
                                   <a href="<?php bloginfo('url'); ?>/bazar-central/#tiendas">                                   
 	                            <?php if($e==1){ ?>
                                    <div class="caption galeria">
-                                      <p>VARIEDAD DE PRODUCTOS </p>
-                                       <h3>BAZAR CENTRAL </h3>
+                                      <p>NUESTRA</p>
+                                       <h3>Galeria </h3>
                                        <div class="divider"> </div>
                                    </div>
                                 <?php } ?>
@@ -135,8 +135,8 @@ if(ICL_LANGUAGE_CODE=='en'){
                                   <a href="<?php bloginfo('url'); ?>/novedades/#entretencion">     
 	                            <?php if($e==1){ ?>
                                        <div class="caption entretencion">
-                                          <p>ZONA </p>
-                                           <h3>ENTRETENCIÓN </h3>
+                                          <p>NUESTROS SHOWS DE  </p>
+                                           <h3>FIN DE SEMANA </h3>
                                            <div class="divider"> </div>
                                        </div>
                                 <?php } ?>
