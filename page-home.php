@@ -94,6 +94,8 @@ if(ICL_LANGUAGE_CODE=='en'){
                         <?php } ?>
                        </div><!-- box slider  -->
                    </div>
+
+                   
               </div> <!-- piso diseño -->
 
               <div class="col-sm-6 col-md-6">
@@ -152,6 +154,8 @@ if(ICL_LANGUAGE_CODE=='en'){
                     <!-- NOVEDADES -->
                     <div class="box_horizontal">
                        <div class="box_slider owl-carousel owl-theme">
+
+
 					   	<?php
 						   	$e = 0;
 							$sliders = get_order_group('slider_medio_imagen_desktop');

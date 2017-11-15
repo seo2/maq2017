@@ -28,16 +28,19 @@
                 <div class="row">
                   <ul class="nav navbar-nav lista_menu">
                       <li class="active"><a href="<?php bloginfo('url'); ?>">Home</a></li>
+                       <li><a id="btn_tiendas"    href="<?php bloginfo('url'); ?>/tiendas#tiendas"><?php echo $menu7; ?></a></li>
                      <li><a id="btn_boulevard" 		href="<?php bloginfo('url'); ?>/food-court-tiendas#tiendas"><?php echo $menu3; ?></a></li>
                      <li><a id="btn_piso" 			href="<?php bloginfo('url'); ?>/piso-diseno"><?php echo $menu4; ?></a></li>
                      <li><a id="btn_entretencion" 	href="<?php bloginfo('url'); ?>/novedades#entretencion"><?php echo $menu5; ?></a></li>
-                     <li><a id="btn_novedades" 		href="<?php bloginfo('url'); ?>/novedades#novedades"><?php echo $menu6; ?></a></li>
-                     <li><a id="btn_tiendas" 		href="<?php bloginfo('url'); ?>/tiendas#tiendas"><?php echo $menu7; ?></a></li>
+                      <li><a href="<?php bloginfo('url'); ?>/servicio-al-cliente"><?php echo $menu11; ?></a></li>
+                     <!-- <li><a id="btn_novedades" 		href="<?php bloginfo('url'); ?>/novedades#novedades"><?php echo $menu6; ?></a></li> -->
+                    
                    </ul>
                     <div class="divisor_h text-center"></div>
                      <ul class="nav navbar-nav lista_menu">
                        <li><a href="<?php bloginfo('url'); ?>/arauco-tag"><?php echo $menu8; ?></a></li>
                        <li><a href="<?php bloginfo('url'); ?>/servicio-al-cliente"><?php echo $menu10; ?></a></li>
+                      
                    		</ul>
                    
                    <div class="divisor_h text-center"></div>
