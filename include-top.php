@@ -126,8 +126,8 @@ if(ICL_LANGUAGE_CODE=='en'){
                                      <li><a id="btn_boulevard" 		href="<?php bloginfo('url'); ?>/food-court-tiendas#tiendas"><?php echo $menu3; ?></a></li>
                                      <li><a id="btn_piso" 			href="<?php bloginfo('url'); ?>/bazar-central"><?php echo $menu4; ?></a></li>
                                      <!-- <li><a id="btn_entretencion" 	href="<?php bloginfo('url'); ?>/novedades#entretencion"><?php echo $menu5; ?></a></li> -->
-                                     <li><a id="btn_novedades" 		href="<?php bloginfo('url'); ?>/novedades#novedades"><?php echo $menu5; ?></a></li>
-                                     <li><a id="btn_novedades"    href="<?php bloginfo('url'); ?>/novedades#destacado"><?php echo $menu11; ?></a></li>
+                                     <li><a id="btn_novedades" 		href="<?php bloginfo('url'); ?>/novedades#entretencion"><?php echo $menu5; ?></a></li>
+                                     <li><a id="btn_novedades"    href="<?php bloginfo('url'); ?>/cartelera_novedades/clinica/"><?php echo $menu11; ?></a></li>
 
                                 </ul>
                             </div>

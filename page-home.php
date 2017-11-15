@@ -141,7 +141,7 @@ if(ICL_LANGUAGE_CODE=='en'){
         								$e++;
         					   	?>
                               <div class="item">
-                                  <a href="<?php bloginfo('url'); ?>/bazar-central/#tiendas">
+                                  <a href="<?php bloginfo('url'); ?>/novedades-galeria/#galerias">
 	                            <?php if($e==1){ ?>
                                    <div class="caption galeria">
                                       <p>NUESTRA</p>
@@ -198,7 +198,7 @@ if(ICL_LANGUAGE_CODE=='en'){
                              <?php
                               if(get('destacado_grande_link',$slider)){
                              ?>
-                               <a href="<?php echo get('destacado_grande_link',$slider); ?>" class="btn btn-default btn_rojo2"  role="button">ver más</a>
+                               <a href="<?php echo get('destacado_grande_link',$slider); ?>" class="btn btn-default btn_rojo2"  role="button">ver aquí</a>
                              <?php } ?>
                          </div>
                            <?php } ?>
