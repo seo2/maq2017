@@ -186,7 +186,7 @@ if(ICL_LANGUAGE_CODE=='en'){
                    <div class="image_dynamic">
                       <!--  <div class="lente"></div> -->
                       <!-- SLIDER DESTACADO HOME -->
-                      <div class="slider_destacado_home owl-carousel owl-theme box">
+                      <div class="slider_destacado_home owl-carousel owl-theme ">
                           <?php
                             $e = 0;
                           $sliders = get_order_group('destacado_grande_imagen');
