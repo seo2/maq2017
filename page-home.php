@@ -80,7 +80,7 @@ if(ICL_LANGUAGE_CODE=='en'){
 								$e++;
 						?>
                            <div class="item">
-                               <a href="<?php bloginfo('url'); ?>/food-court-tiendas/#tiendas">
+                               <a href="<?php bloginfo('url'); ?>/food-court-tiendas/#patio-de-comida">
 	                            <?php if($e==1){ ?>
                                    <div class="caption foodcourt">
                                       <p>NUESTRA VARIEDAD </p>
@@ -165,7 +165,7 @@ if(ICL_LANGUAGE_CODE=='en'){
                               $e++;
                           ?>
                                              <div class="item">
-                                     <a href="<?php bloginfo('url'); ?>/novedades/#entretencion">
+                                     <a href="<?php bloginfo('url'); ?>/novedades/#shows">
                                 <?php if($e==1){ ?>
                                           <div class="caption entretencion">
                                              <p>NUESTROS SHOWS DE  </p>
@@ -194,7 +194,7 @@ if(ICL_LANGUAGE_CODE=='en'){
                             $e++;
                         ?>
                          <div class="item">
-                            <!--  <div class="image_dynamic_portada" style="background: url(<?php bloginfo('template_url'); ?>/assets/img/tendencias.gif);"> </div> -->
+                       <!--      <div class="image_dynamic_portada" style="background: url(<?php bloginfo('template_url'); ?>/assets/img/vida_Saludable.jpg);"> </div>  -->
                              <img class="img-responsive" src="<?php echo get('destacado_grande_imagen',$slider); ?>" alt="">
                              <?php
                               if(get('destacado_grande_link',$slider)){
