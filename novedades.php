@@ -68,11 +68,15 @@ if(ICL_LANGUAGE_CODE=='en'){
                                             <div class="box_logo_destacado">
                                             	<div class="logo_destacado center-block">
                                                 	<img src="<?php bloginfo('template_url'); ?>/assets/img/cinemark.jpg" alt="" class="img-responsive">
-                                              	</div> <!-- logo_tienda -->
+                                              	</div> 
+
+                                              	
+                                              <!-- 	!-- logo_tienda --> 
+
                                                 <div class="desc_destacado visible-xs">
                                                     <h3>¡Descubre los mejores estrenos!</h3>
-                                                    <p>Si eres amante del cine, entra aquí y conoce las últimas novedades en la cartelera de Cinemark Arauco Coronel.</p>
-                                                    <a href="<?php echo get('caluga_cine_link'); ?>" target="_blank">www.cinemark.cl</a>
+                                                    <p>Si eres amante del cine, entra aquí y conoce las últimas novedades en la cartelera de CineHoyts Arauco Quilicura.</p>
+                                                    <a href="<?php echo get('caluga_cine_link'); ?>" target="_blank">www.cinehoyts.cl</a>
                                                 </div>
                                             </div> <!-- box logo tienda -->
                                         </div> <!--  tienda -->
