@@ -22,9 +22,9 @@ Template name: Boulevard Tiendas
 	                            <?php
 								if($_GET['page']){
 									$desde 	 = 12 * ($_GET['page'] - 1);
-									$tiendas = $db->rawQuery("select * from pak_tiendas where tipo = 3 order by nombre limit $desde, 12");
+									$tiendas = $db->rawQuery("select * from pak_tiendas where tipo = 2 order by nombre limit $desde, 12");
 								}else{
-									$tiendas = $db->rawQuery("select * from pak_tiendas where tipo = 3 order by nombre limit 12");
+									$tiendas = $db->rawQuery("select * from pak_tiendas where tipo = 2 order by nombre limit 12");
 								}
 								if($tiendas){
 									foreach ($tiendas as $t) {   
@@ -105,7 +105,7 @@ Template name: Boulevard Tiendas
 	$postperpage = 12;
 	$rowcount = 0;
 
-	$db->where('tipo', Array(110), 'IN');
+	$db->where('tipo', Array(2), 'IN');
 	$rowcount = $db->getValue ("pak_tiendas", "count(*)");
 	$cola = "";
 
