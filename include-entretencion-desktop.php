@@ -53,7 +53,7 @@
                         </div>
                     </div><!--  slider_entretenion -->
                     <?php if($post->ID == 431){ ?>
-                    <div class="box_cartelera clearfix">
+                 <!--    <div class="box_cartelera clearfix">
                     	<div class="row">
                         	<div class="col-xs-8">
                             	<a href="https://www.happyland.cl/mall-costa-pacifico/" target="_blank">Más información</a>
@@ -62,7 +62,7 @@
                             	<img src="<?php bloginfo('template_url'); ?>/assets/img/logo_happyland.png" alt="" class="img-responsive pull-right">
                             </div> 
                         </div>    
-                    </div>
+                    </div> -->
                     <?php }elseif($post->ID == 434){ ?>
 <!--
                     <div class="box_cartelera clearfix">

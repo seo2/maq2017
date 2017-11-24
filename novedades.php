@@ -67,7 +67,7 @@ if(ICL_LANGUAGE_CODE=='en'){
                                             </a>
                                             <div class="box_logo_destacado">
                                             	<div class="logo_destacado center-block">
-                                                	<img src="<?php bloginfo('template_url'); ?>/assets/img/cinemark.jpg" alt="" class="img-responsive">
+                                                	<img src="<?php bloginfo('template_url'); ?>/assets/img/cine-hoyts.jpg" alt="" class="img-responsive">
                                               	</div> 
 
                                               	
