@@ -39,7 +39,7 @@ function theme_styles() {
 	wp_enqueue_style('style-jasny', 'https://cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.3/css/jasny-bootstrap.min.css', array(), '1', 'screen' );
 	wp_enqueue_style('style-valio', get_template_directory_uri() . '/assets/css/formValidation.min.css', array(), '1', 'screen' );
 	wp_enqueue_style('style-dp', get_template_directory_uri() . '/assets/css/datepicker.min.css', array(), '1.2', 'screen' );
-	wp_enqueue_style('style-aco', get_template_directory_uri() . '/assets/css/custom.css', array(), '1.2.8', 'screen' );
+	wp_enqueue_style('style-aco', get_template_directory_uri() . '/assets/css/custom.css', array(), '1.2.9', 'screen' );
 
 }
 
@@ -328,8 +328,19 @@ function quitatodo($string){
 	$colA = str_replace('(', '', $colA);
 	$colA = str_replace('&ntilde;', 'n', $colA);
 	$colA = str_replace('&ouml;', 'o', $colA);
+	$colA = str_replace('á;', 'a', $colA);
+	$colA = str_replace('Á;', 'a', $colA);
+	$colA = str_replace('é;', 'e', $colA);
+	$colA = str_replace('É;', 'e', $colA);
+	$colA = str_replace('í;', 'i', $colA);
+	$colA = str_replace('Í;', 'i', $colA);
+	$colA = str_replace('ó;', 'o', $colA);
+	$colA = str_replace('Ó;', 'o', $colA);
+	$colA = str_replace('ú;', 'u', $colA);
+	$colA = str_replace('Ú;', 'u', $colA);
 	$colA = str_replace('ö', 'o', $colA);
 	$colA = str_replace('ñ', 'n', $colA);
+	$colA = str_replace('Ñ', 'n', $colA);
 	$colA = str_replace('%', 'porc', $colA);
 	$colA = str_replace('&', 'porc', $colA);
 	$colA = str_replace('generico', '', $colA);
