@@ -34,7 +34,7 @@ if(isset($_GET['tiendaID'])){
     		if(is_url_exist($logo)){
         		$logo = $logo;
 		  	}else{
-            	$logo 	= "/assets/img/logo_381.jpg?v=2";
+            	$logo 	= "/assets/img/logo_381.jpg?v=3";
 			  	$logo	= get_template_directory_uri().$logo;
 		  	}
         	

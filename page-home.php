@@ -165,11 +165,11 @@ if(ICL_LANGUAGE_CODE=='en'){
                               $e++;
                           ?>
                                              <div class="item">
-                                     <a href="<?php bloginfo('url'); ?>/novedades/#shows">
+                                     <a href="<?php bloginfo('url'); ?>/novedades/#entretencion">
                                 <?php if($e==1){ ?>
                                           <div class="caption entretencion">
-                                             <p>NUESTROS SHOWS DE  </p>
-                                              <h3>FIN DE SEMANA </h3>
+                                             <p>ZONA  </p>
+                                              <h3>Entretención</h3>
                                               <div class="divider"> </div>
                                           </div>
                                    <?php } ?>
